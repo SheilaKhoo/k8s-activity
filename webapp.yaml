@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: sheilakhoo/k8s-demoapp:latest
+        image: bernardleong/k8s-demoapp:latest
         ports:
         - containerPort: 3000
         env:
